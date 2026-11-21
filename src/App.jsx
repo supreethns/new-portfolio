@@ -32,10 +32,9 @@ const skills = [
 ]
 
 const projects = [
-  { number: '01', stack: 'Next.js · TypeScript', name: 'InvoiceFlow', mark: 'IF', featured: true, description: 'A GST-compliant invoicing platform for Indian businesses, with billing documents, customer management, PDF exports, subscriptions, and Razorpay payments.', url: 'https://github.com/supreethns/invoice-flow' },
-  { number: '02', stack: 'React · Vite', name: 'Gemini Clone', mark: 'Gc', description: 'A modern AI-inspired frontend interface built with React and Vite.', url: 'https://github.com/supreethns/gemini-clone-front-end-' },
-  { number: '03', stack: 'HTML · CSS · JS', name: 'Calculator', mark: 'C+', description: 'A clean browser-based calculator built with core web technologies.', url: 'https://github.com/supreethns/calculator-using-JS' },
-  { number: '04', stack: 'JavaScript', name: 'TextUtils', mark: 'Tu', description: 'A useful text utility application for everyday text transformations.', url: 'https://github.com/supreethns/Textutils' },
+  { number: '01', stack: 'React · Node.js · AWS', name: 'Digital Sanskrit Guru', mark: 'Ds', featured: true, work: 'Work project at Vyoma', description: 'A full-stack e-commerce platform for Sanskrit books and courses, with Razorpay payments, WhatsApp order updates, admin tools and AWS deployment.' },
+  { number: '02', stack: 'Next.js · TypeScript', name: 'InvoiceFlow', mark: 'IF', featured: true, description: 'A GST-compliant invoicing platform for Indian businesses, with billing documents, customer management, PDF exports, subscriptions, and Razorpay payments.', url: 'https://github.com/supreethns/invoice-flow' },
+  { number: '03', stack: 'React · Vite', name: 'Gemini Clone', mark: 'Gc', featured: true, description: 'A modern AI-inspired frontend interface built with React and Vite.', url: 'https://github.com/supreethns/gemini-clone-front-end-' },
 ]
 
 const contacts = [
@@ -102,7 +101,13 @@ function App() {
       <Section id="projects" label="04 / Selected work">
         <div className="section-content">
           <h2>Things I’ve<br />built.</h2>
-          <div className="projects-grid">{projects.map((project) => <a key={project.name} className={`project-card ${project.featured ? 'featured' : ''}`} href={project.url} target="_blank" rel="noreferrer"><div><p className="project-number">{project.number} / {project.stack}</p><h3>{project.name}</h3><p>{project.description}</p><b>View source ↗</b></div><strong>{project.mark[0]}<span>{project.mark.slice(1)}</span></strong></a>)}</div>
+          <div className="projects-grid">{projects.map((project) => {
+            const inner = <><div><p className="project-number">{project.number} / {project.stack}</p><h3>{project.name}</h3><p>{project.description}</p><b>{project.url ? 'View source ↗' : project.work}</b></div><strong>{project.mark[0]}<span>{project.mark.slice(1)}</span></strong></>
+            const cls = `project-card ${project.featured ? 'featured' : ''}`
+            return project.url
+              ? <a key={project.name} className={cls} href={project.url} target="_blank" rel="noreferrer">{inner}</a>
+              : <article key={project.name} className={cls}>{inner}</article>
+          })}</div>
         </div>
       </Section>
 

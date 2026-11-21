@@ -34,9 +34,7 @@ const skills = [
 const projects = [
   { number: '01', stack: 'React · Node.js · AWS', name: 'Digital Sanskrit Guru', mark: 'Ds', featured: true, work: 'Work project at Vyoma', description: 'A full-stack e-commerce platform for Sanskrit books and courses, with Razorpay payments, WhatsApp order updates, admin tools and AWS deployment.' },
   { number: '02', stack: 'Next.js · TypeScript', name: 'InvoiceFlow', mark: 'IF', featured: true, description: 'A GST-compliant invoicing platform for Indian businesses, with billing documents, customer management, PDF exports, subscriptions, and Razorpay payments.', url: 'https://github.com/supreethns/invoice-flow' },
-  { number: '03', stack: 'React · Vite', name: 'Gemini Clone', mark: 'Gc', description: 'A modern AI-inspired frontend interface built with React and Vite.', url: 'https://github.com/supreethns/gemini-clone-front-end-' },
-  { number: '04', stack: 'HTML · CSS · JS', name: 'Calculator', mark: 'C+', description: 'A clean browser-based calculator built with core web technologies.', url: 'https://github.com/supreethns/calculator-using-JS' },
-  { number: '05', stack: 'JavaScript', name: 'TextUtils', mark: 'Tu', description: 'A useful text utility application for everyday text transformations.', url: 'https://github.com/supreethns/Textutils' },
+  { number: '03', stack: 'React · Vite', name: 'Gemini Clone', mark: 'Gc', featured: true, description: 'A modern AI-inspired frontend interface built with React and Vite.', url: 'https://github.com/supreethns/gemini-clone-front-end-' },
 ]
 
 const contacts = [

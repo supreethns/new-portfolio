@@ -5,13 +5,14 @@ const experience = [
     period: 'Jan 2026 — Present',
     role: 'Full Stack Developer',
     company: 'Vyoma Linguistic Labs Foundation',
-    summary: 'Building Digital Sanskrit Guru (DSG 2.0), a full-stack e-commerce platform, and Sandhi, a Sanskrit learning web app.',
+    summary: 'Building Digital Sanskrit Guru (DSG 2.0), a full-stack e-commerce platform, along with Vyoma\'s Sanskrit learning web apps.',
     points: [
       'Develop DSG 2.0, a full-stack e-commerce platform (React.js, Node.js/Express, MongoDB): checkout, orders, digital library and admin, plus WhatsApp Cloud API order notifications.',
       'Built Razorpay payment flows: verification, webhooks, orphan-payment reconciliation, refunds and financial ledger reporting.',
       'Hardened security with API ownership checks, session isolation, rate limiting and server-side price validation, and wrote 61 automated tests (node:test) for payment, pricing and coupon logic.',
       'Deploy on AWS Lightsail (Nginx, PM2) with GitHub Actions CI/CD, and migrated media to S3 + CloudFront with deduplication, dry-run and rollback.',
-      'Built Sandhi, Vyoma\'s Sanskrit-learning PWA for iOS and Android, including offline caching and demo slot booking.',
+      'Built Sandhi, Vyoma\'s Sanskrit-learning PWA for iOS and Android with offline caching via service workers.',
+      'Built the demo slot booking system for Sanskrit Language Lab, letting learners book demo sessions online.',
     ],
   },
   {

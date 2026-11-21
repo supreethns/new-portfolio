@@ -57,7 +57,7 @@ function App() {
     <main>
       <section className="hero" id="home">
         <div>
-          <p className="eyebrow">Full-stack developer · Mysuru, India</p>
+          <p className="eyebrow">Full-stack developer · Bengaluru, India</p>
           <h1>Building web apps with <em>purpose</em> and precision.</h1>
           <p className="intro">I'm Supreeth Nelamane Srikantaiah — a software developer building full-stack web applications, e-commerce workflows, payment integrations and cloud deployments with React, Node.js and AWS.</p>
           <div className="hero-actions"><a className="button button-primary" href="#experience">See my experience ↓</a><a className="text-link" href="#contact">Let's connect →</a></div>

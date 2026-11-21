@@ -29,7 +29,7 @@ const skills = [
   { title: 'Data & payments', text: 'MongoDB, MongoDB Atlas, Razorpay, WhatsApp Cloud API, Google Calendar API.' },
   { title: 'Cloud & DevOps', text: 'AWS Lightsail, S3, CloudFront, Nginx, PM2, Git, GitHub Actions, CI/CD.' },
   { title: 'Testing & security', text: 'node:test, API hardening, HMAC verification, session isolation.' },
-  { title: 'AI & analytics', text: 'Python, PyTorch fundamentals, tokenization, embeddings, LLMs · GTM, GA4, Meta Ads.' },
+  { title: 'Analytics · learning AI', text: 'GTM, GA4 and Meta Ads. Currently learning Python, PyTorch, embeddings and LLM fundamentals.' },
 ]
 
 const projects = [

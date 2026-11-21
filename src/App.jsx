@@ -25,7 +25,7 @@ const experience = [
 const skills = [
   { title: 'Frontend', text: 'React.js, JavaScript, HTML5, CSS3, responsive UI, PWAs, Vite, Material UI, Tailwind CSS.' },
   { title: 'Backend', text: 'Node.js, Express.js, REST APIs, authentication, webhook processing.' },
-  { title: 'Data & payments', text: 'MongoDB, MongoDB Atlas, PostgreSQL, Razorpay, WhatsApp Cloud API, Google Calendar API.' },
+  { title: 'Data & payments', text: 'MongoDB, MongoDB Atlas, Razorpay, WhatsApp Cloud API, Google Calendar API.' },
   { title: 'Cloud & DevOps', text: 'AWS Lightsail, S3, CloudFront, Nginx, PM2, Git, GitHub Actions, CI/CD.' },
   { title: 'Testing & security', text: 'node:test, API hardening, HMAC verification, session isolation.' },
   { title: 'AI & analytics', text: 'Python, PyTorch fundamentals, tokenization, embeddings, LLMs · GTM, GA4, Meta Ads.' },

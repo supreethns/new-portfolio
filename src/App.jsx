@@ -7,13 +7,11 @@ const experience = [
     company: 'Vyoma Linguistic Labs Foundation',
     summary: 'Building Digital Sanskrit Guru (DSG 2.0), a full-stack e-commerce platform, and Sandhi, a Sanskrit learning web app.',
     points: [
-      'React.js interfaces and Node.js/Express APIs for products, cart & checkout, orders, wishlist, digital library, inventory and admin.',
-      'Razorpay payment workflows: verification, webhooks, orphan-payment reconciliation, refunds, returns and financial ledger reporting.',
-      'Security hardening: API ownership checks, session and wishlist isolation, rate limiting and protection against client-side price tampering.',
-      'A 61-test automated suite (node:test) covering financial helpers, coupons, payment signatures, pricing, currency and delivery.',
-      'WhatsApp Cloud API order notifications, plus AWS S3 + CloudFront media migration with deduplication, dry runs and rollback.',
-      'Deployments on AWS Lightsail (Nginx, PM2, Node.js 20) automated with GitHub Actions.',
-      'Built the Sandhi PWA for iOS and Android, including demo slot booking, plus GTM, GA4 and Meta Ads tracking.',
+      'Develop DSG 2.0, a full-stack e-commerce platform (React.js, Node.js/Express, MongoDB): checkout, orders, digital library and admin, plus WhatsApp Cloud API order notifications.',
+      'Built Razorpay payment flows: verification, webhooks, orphan-payment reconciliation, refunds and financial ledger reporting.',
+      'Hardened security with API ownership checks, session isolation, rate limiting and server-side price validation, and wrote 61 automated tests (node:test) for payment, pricing and coupon logic.',
+      'Deploy on AWS Lightsail (Nginx, PM2) with GitHub Actions CI/CD, and migrated media to S3 + CloudFront with deduplication, dry-run and rollback.',
+      'Built Sandhi, Vyoma\'s Sanskrit-learning PWA for iOS and Android, including offline caching and demo slot booking.',
     ],
   },
   {
@@ -21,12 +19,6 @@ const experience = [
     role: 'Frontend Development Intern',
     company: 'Sam Megh Technologies',
     summary: 'Built and updated user-facing web interfaces with React.js, HTML, CSS and JavaScript, improving presentation and usability.',
-  },
-  {
-    period: 'Earlier',
-    role: 'Mechanical Engineering Intern',
-    company: 'Hindustan Springs, Mysuru',
-    summary: 'Industrial internship during my engineering degree.',
   },
 ]
 
